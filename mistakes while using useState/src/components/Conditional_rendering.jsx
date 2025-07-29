@@ -1,7 +1,18 @@
-import React from 'react'
+// import React, { useEffect, useState } from 'react'
 
-export const Conditional_rendering = () => {
+export const Conditional_rendering = ({id}) => {
+
+//   const [someThink,setSomeThink] = useState("ABCD")
+
+//   useEffect(()=>{},[someThink])
+
+ 
+
+
   return (
-    <div>Conditional_rendering</div>
-  )
+    <div className='flex items-center justify-center'>
+
+        {!id ? "no id provided" : {}}
+    </div>
+  ) 
 }
