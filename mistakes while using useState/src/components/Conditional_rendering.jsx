@@ -10,9 +10,8 @@ export const Conditional_rendering = ({id}) => {
 
 
   return (
-    <div className='flex items-center justify-center'>
-
-        {!id ? "no id provided" : {}}
+    <div className="flex items-center justify-center h-screen">
+      {!id ? "no id provided" : null}
     </div>
-  ) 
+  )
 }
